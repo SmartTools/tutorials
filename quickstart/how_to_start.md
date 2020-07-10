@@ -52,7 +52,7 @@ To begin developing with SmartActors framework, you need the following:
 * [Apache Maven](https://maven.apache.org/install.html) 3 or newer to build your Project.
 * Access to [feature repository](http://repository.smart-tools.info) to download necessary packages.
 * `das` utility:
-  * Download [deb package](https://repository.smart-tools.info/artifactory/smartactors_development_tools/info/smart_tools/smartactors/das/0.6.0/das-0.6.0.deb).
+  * Download [deb package](https://repository.smart-tools.info/artifactory/smartactors_development_tools_dev/info/smart_tools/smartactors/das/0.6.0/das-0.6.0.deb).
   * Install it with `dpkg` command.
     ```bash
     $ sudo dpkg -i das-0.6.0.deb
