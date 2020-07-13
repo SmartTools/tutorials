@@ -31,7 +31,7 @@ For das installation following pre-installed application are needed:
 * open-jdk-8
 * maven 3+
 
-[Download](http://archiva.smart-tools.info/#artifact~server-dev-tools/info.smart_tools.smartactors/das) and install the debian package :
+[Download](https://repository.smart-tools.info/artifactory/smartactors_development_tools_dev/info/smart_tools/smartactors/das/0.6.0/das-0.6.0.deb) and install the debian package :
 
 ```console
 $ sudo dpkg -i das-0.6.0.deb
@@ -63,7 +63,7 @@ Use the command `cs` (create server) to create the server. This command supports
 Run:
 
 ```console
-$ das cs -path ~/servers -sn MyServer
+$ das cs -v 0.6.0 -path ~/servers -sn MyServer -rid server -rurl https://repository.smart-tools.info/artifactory/smartactors_servers_dev/
 ```
 
 Go to the `~/servers/MyServer/`
