@@ -80,7 +80,7 @@ To create project folder all you need is to use `mkdir` command. Although there'
 
 For more detailed description on project structure, please refer to [this document](project_structure). It's also recommended to use Makefile from that document to help you with feature generation and server start. From this point on, we'll refer to that Makefile.
 
-Also we recommend to check out the project template in `src/template` in tutorial's [repository](https://github.com/SmartTools/tutorials). You'll need all files available there in order to run the project.
+Also we recommend to check out the project template in `src/project-template` in tutorial's [repository](https://github.com/SmartTools/tutorials). You'll need all files available there in order to run the project.
 
 ### Creating feature
 

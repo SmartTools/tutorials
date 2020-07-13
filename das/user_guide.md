@@ -90,10 +90,10 @@ Use the command `dc` (download core) to download the core pack. This command sup
 * `path` — the server location (default value: current directory)
 * `sl` — location of a custom core-pack json
 
-Run:
+Run in server directory:
 
 ```console
-$ das dc -path ~/servers/MyServer
+$ das dc -v 0.6.0 -sl core-pack.json
 ```
 
 Go to the `~/servers/MyServer/core` and check the directory core isn’t empty and contains some directories like a `base-0.6.0`, `ioc-0.6.0`, etc...
@@ -111,6 +111,10 @@ The result should be:
 ```console
 [OK] Stage 1: server core has been loaded successful.
 ```
+
+
+## Deprecated
+### Check new [quickstart_guide](../quickstart/how_to_start.md)
 
 ## Simple project: 'Hello, world!' in the console
 
