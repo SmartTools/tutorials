@@ -23,7 +23,7 @@ gems:
   - jekyll-feed
   - just-the-docs
 
-theme: 'just-the-dogcs'
+theme: 'just-the-docs'
 
 search_enabled: true
 search:
