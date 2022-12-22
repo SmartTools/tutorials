@@ -1,8 +1,8 @@
 ---
-layout: page
-title: DAS
-description: DAS usage
-group: das
+layout: default
+title: Specification
+parent: DAS
+nav_order: 2
 ---
 
 # DAS Usage

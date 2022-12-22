@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "PostgreSQL configuration"
-description: "How to configure PostgreSQL"
-group: quickstart
+title: PostgreSQL Setup
+parent: Quickstart
+nav_order: 3
 ---
 
-# PostgreSQL configuration
+# PostgreSQL Setup
 
 ## Dependencies
 
@@ -36,8 +36,6 @@ For example, your `corefeatures/features.json` could look like:
     }
   ],
   "features": [
-    ...Some Other Features...
-    !!!
     {
       "group":"info.smart_tools.smartactors",
       "name": "database-service-starter",

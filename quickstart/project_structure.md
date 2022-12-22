@@ -1,15 +1,11 @@
 ---
 layout: page
-title: "Project structure"
-description: "Project structure - best practises"
-group: quickstart
+title: Project Structure
+parent: Quickstart
+nav_order: 2
 ---
 
-# Project structure
-
-_Before reading this guide, look through this instructions: [How to start using SmartActors](how_to_start)_
-
-## Dirs structure
+# Dirs structure
 
 ```
 |-- Project
@@ -47,8 +43,8 @@ _Before reading this guide, look through this instructions: [How to start using 
     |-- docker-compose.yml ## this is if you would like to use docker.
 ```
 
-## Configuration files
-### .gitignore
+# Configuration files
+## .gitignore
 
 Supposing you use git, gitignore must have this lines:
 
@@ -87,9 +83,9 @@ allure-results/*
 **/docs
 ```
 
-### .env
+## .env
 Some properties for development environment can be stored in .env file like this:
-```bash
+```shell
 POSTGRES_DB=postgres_db
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
@@ -103,7 +99,7 @@ TEST_SERVER_HOST=your-project-test-server.lan
 ARTIFACTORY_REPO=url-to-your-artifactory-repository
 ```
 
-### Makefile
+## Makefile
 
 To specify the way of building system strictly we will use `Makefile`. Do not use instructions in the readme, because you'll definitely reach instructions-hell.
 
@@ -206,12 +202,12 @@ build_docs_git:
 
 ```
 
-#### Feature compiling
+### Feature compiling
 To compile only modified features, this script can be used.
 
 **Important note**: this feature will compile only those feature that can be seen with `git status` command. If feature does not appear as a result of checking status of project's git repository, it won't compile.
 
-```bash
+```shell
 #!/usr/bin/env bash
 
 for dir in Features/*/; do
@@ -237,7 +233,7 @@ fi
 
 ```
 
-### .editorconfig
+## .editorconfig
 
 In our projects I recommend to use this editor configuration.
 
