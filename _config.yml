@@ -23,8 +23,8 @@ gems:
   - jekyll-feed
   - just-the-docs
 
-# theme: 'just-the-docs'
-remote_theme: "just-the-docs/just-the-docs"
+theme: 'just-the-docs'
+# remote_theme: "just-the-docs/just-the-docs"
 
 search_enabled: true
 search:
