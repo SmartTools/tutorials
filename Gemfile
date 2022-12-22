@@ -21,7 +21,7 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.15.1"
 end
 
-gem "just-the-docs"
+gem "just-the-docs", "~> 0.3.3"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
