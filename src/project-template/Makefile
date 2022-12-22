@@ -94,16 +94,16 @@ test:
 
 .PHONY: cf
 cf:
-	cd Features && mvn archetype:generate                                                                       \
-      -DarchetypeGroupId=it.sevenbits.common                                                                    \
-      -DarchetypeArtifactId=feature-archetype                                                                   \
-      -DarchetypeVersion=${FEATURE_ARCHETYPE_VERSION}                                                                                  \
-      -DgroupId=${PROJECT_GROUP_ID}                                                                   \
-      -DgroupPackage=${PROJECT_GROUP_PACKAGE}                                                              \
-      -DartifactId=${artId}                                                                                     \
-      -DartifactPackage=${artPack}                                                                              \
-      -DrepoId=${REPO_ID}                                                                                 \
-      -DrepoUrl=${ARTIFACTORY_REPO}                                  \
+	cd Features && mvn archetype:generate                                       \
+      -DarchetypeGroupId=info.smart-tools.common                                \
+      -DarchetypeArtifactId=feature-archetype                                   \
+      -DarchetypeVersion=${FEATURE_ARCHETYPE_VERSION}                           \
+      -DgroupId=${PROJECT_GROUP_ID}                                             \
+      -DgroupPackage=${PROJECT_GROUP_PACKAGE}                                   \
+      -DartifactId=${artId}                                                     \
+      -DartifactPackage=${artPack}                                              \
+      -DrepoId=${REPO_ID}                                                       \
+      -DrepoUrl=${ARTIFACTORY_REPO}                                             \
       -Dversion=0.1.0
 
 .PHONY: deploy
