@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Stateful actors, state
-description: Docs for writing stateful actors and state management
-group: userguide
+parent: User Guide
+nav_order: 5
 ---
 
 # Акторы с состоянием

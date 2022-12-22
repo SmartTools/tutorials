@@ -1,11 +1,22 @@
 ---
 layout: page
-title: "How to start guide"
+title: How to start
 description: "How to start using DAS"
-group: quickstart
+parent: Quickstart
+nav_order: 1
 ---
 
-# How to start using SmartActors
+# How to start
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Terminology
 
@@ -938,8 +949,7 @@ Note that because wrapper for `clear` handler does not have any field, we leave 
 
 After you've created remaining features, build the project using `make install_features` and start it with `make start_server`. If everything goes well, you'll see this:
 
-```console
-
+```shell
 [INFO] Feature group has been loaded: [
 com.example.your-project:get-item:0.1.0 - (OK), 
 com.example.your-project:clear-storage:0.1.0 - (OK), 
@@ -948,14 +958,13 @@ com.example.your-project:set-item:0.1.0 - (OK),
 com.example.your-project:items-storage:0.1.0 - (OK), 
 com.example.your-project:remove-item:0.1.0 - (OK)]
 [INFO] elapsed time - 00:00:00.244.
-
 ```
 
 Then you can test your application by sending POST requests with JSON body to `localhost:9909`, since we've configured endpoint to receive requests on port 9909.
 
 **Getting non-existing item**
 
-```bash
+```shell
 $ curl --request POST \
     --verbose \
     --url http://localhost:9909/ \
@@ -988,7 +997,7 @@ $ {}
 
 **Adding new item and then getting it**
 
-```bash
+```shell
 $ curl --request POST \
     --url http://localhost:9909/ \
     --header 'content-type: application/json' \
@@ -1000,7 +1009,7 @@ $ curl --request POST \
 $ {}
 ```
 
-```bash
+```shell
 $ curl --request POST \
     --url http://localhost:9909/ \
     --header 'content-type: application/json' \
@@ -1013,7 +1022,7 @@ $ {"value":"example value"}
 
 **Removing created value**
 
-```bash
+```shell
 $ curl --request POST \
     --url http://localhost:9909/ \
     --header 'content-type: application/json' \
@@ -1024,7 +1033,7 @@ $ curl --request POST \
 $ {"value":"example value"}
 ```
 
-```bash
+```shell
 $ curl --request POST \
     --url http://localhost:9909/ \
     --header 'content-type: application/json' \
@@ -1037,7 +1046,7 @@ $ {"value":null}
 
 **Removing non-existing value**
 
-```bash
+```shell
 $ curl --request POST \
     --verbose \
     --url http://localhost:9909/ \
@@ -1068,7 +1077,7 @@ $ {}
 
 **Clearing internal storage**
 
-```bash
+```shell
 $ curl --request POST \
     --url http://localhost:9909/ \
     --header 'content-type: application/json' \

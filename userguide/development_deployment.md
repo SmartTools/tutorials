@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Development, deployment
-description: Docs for developing with SmartActors and deployment
-group: userguide
+parent: User Guide
+nav_order: 6
 ---
 
 # Development and deployment
@@ -56,4 +56,4 @@ Due to the fact that we can't simply stop server to add new feature or update ex
 
 This way the feature will be loaded by the server and it will be available for usage.
 
-More on feature loading can be found in [this document](../quickstart/ReloadingExample)
+More on feature loading can be found in [this document](../developing_server/Reloading)

@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Code style and guidelines
-description: Docs for code style used in SmartActors projects
-group: userguide
+layout: default
+title: Code Style
+parent: User Guide
+nav_order: 1
 ---
 
 # Code style and guidelines

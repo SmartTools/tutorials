@@ -1,8 +1,8 @@
 ---
 layout: page
 title: IOC Dependencies
-description: Guide for working with IOC dependencies
-group: userguide
+parent: User Guide
+nav_order: 3
 ---
 
 # IOC-зависимости

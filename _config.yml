@@ -1,5 +1,5 @@
 name: SmartActors
-title: SmartTools - Tutorials
+title: SmartActors Docs
 description: > # this means to ignore newlines until "baseurl:"
   Here are some examples and tutorials how to use SmartActors library.
 baseurl: "/tutorials"
@@ -21,6 +21,20 @@ permalink: /:categories/:year/:month/:day/:title
 highlighter: rouge
 gems:
   - jekyll-feed
+  - just-the-docs
+
+theme: 'just-the-docs'
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+heading_anchors: true
 
 # Exclude from processing.
 exclude:

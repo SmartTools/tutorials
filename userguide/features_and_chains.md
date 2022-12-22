@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Features and chains
-description: Docs for writing features and chains
-group: userguide
+title: Features and Chains
+parent: User Guide
+nav_order: 2
 ---
 
 # Модули и цепочки

@@ -1,19 +1,16 @@
 ---
-layout: page
+title: SmartActors Docs
+layout: default
+nav_order: 1
 ---
 
-# SmartActors tutorials
+These are tutorials and docs for the SmartActors library.
 
-* [Basic architecture](architecture/)
-* [Quickstart guides](quickstart/)
-* [User Guide](userguide/)
-* [DAS tool](das/)
-
-# Other documentation
+If you want to read JavaDocs or other more technical documentation, follow:
 
 * [Maven site for __master__ branch of smartactors-core](http://smarttools.github.io//smartactors-core/)
 * [Maven site for __develop__ branch of smartactors-core](http://smarttools.github.io//smartactors-core/develop/)
 
-# Sources
+If you want to take the sources, follow:
 
 * [GitHub project](https://github.com/SmartTools/smartactors-core)
